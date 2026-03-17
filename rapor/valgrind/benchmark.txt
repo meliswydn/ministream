@@ -1,0 +1,22 @@
+==31917== Memcheck, a memory error detector
+==31917== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==31917== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==31917== Command: ./test/benchmark
+==31917== 
+
+=== ARAMA BENCHMARK (1000 sorgu) ===
+| N sarki  | LinkedList   | HashMap      | Fark     |
+|----------|--------------|--------------|----------|
+|      100 |      1.666 ms |      0.572 ms |     2.9x |
+|     1000 |      6.239 ms |      0.276 ms |    22.6x |
+|    10000 |     62.685 ms |      0.598 ms |   104.9x |
+|   100000 |   1477.431 ms |      5.141 ms |   287.4x |
+==31917== 
+==31917== HEAP SUMMARY:
+==31917==     in use at exit: 0 bytes in 0 blocks
+==31917==   total heap usage: 222,205 allocs, 222,205 frees, 72,918,464 bytes allocated
+==31917== 
+==31917== All heap blocks were freed -- no leaks are possible
+==31917== 
+==31917== For lists of detected and suppressed errors, rerun with: -s
+==31917== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

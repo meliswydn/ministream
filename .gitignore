@@ -1,0 +1,13 @@
+# Devasa veri seti (GitHub sınırı yüzünden)
+data/sarkilar.csv
+
+# Derleme dosyaları ve kütüphaneler
+*.o
+*.so
+test_temel
+test_bellek
+benchmark
+test_csv
+
+# ZIP dosyaları
+*.zip
